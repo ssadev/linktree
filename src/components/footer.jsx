@@ -30,6 +30,7 @@ export class Footer extends Component {
                 <a
                   href="https://github.com/montoulieu"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-green-400"
                 >
                   {UserInfo.user.name}
@@ -39,6 +40,7 @@ export class Footer extends Component {
                 <a
                   href="https://github.com/programworld999/linktree"
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="text-green-400"
                 >
                   linktree
