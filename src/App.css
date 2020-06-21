@@ -1,0 +1,35 @@
+body {
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+}
+.user-avatar {
+  border-radius: 100%;
+}
+.linktree {
+  margin-top: 25px;
+}
+.link {
+  margin-top: 10px;
+  padding: 0;
+}
+.link a {
+}
+.link a:focus,
+.link a:hover {
+  background-color: #38f9d7;
+}
+
+.footer-social-media-link a {
+  text-decoration: none;
+  font-size: 40px;
+  margin: 10px;
+}
+
+.footer-social-media-link::before {
+  content: "";
+}
