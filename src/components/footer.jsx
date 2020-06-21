@@ -9,17 +9,17 @@ export class Footer extends Component {
           <div className="md:w-4/6 mx-auto">
             <ul className="inline">
               <li className="footer-social-media-link">
-                <a href="#">
+                <a href="https://exampe.com">
                   <i className="fa fa-github"></i>
                 </a>
               </li>
               <li className="footer-social-media-link">
-                <a href="#">
+                <a href="https://exampe.com">
                   <i className="fa fa-instagram"></i>
                 </a>
               </li>
               <li className="footer-social-media-link">
-                <a href="#">
+                <a href="https://exampe.com">
                   <i className="fa fa-twitter"></i>
                 </a>
               </li>
@@ -31,19 +31,17 @@ export class Footer extends Component {
                   href="https://github.com/montoulieu"
                   target="_blank"
                   className="text-green-400"
-                  rel="noopener"
                 >
                   {UserInfo.user.name}
                 </a>
               </p>
               <p>
                 <a
-                  href="https://github.com/montoulieu/link-ent"
+                  href="https://github.com/programworld999/linktree"
                   target="_blank"
                   className="text-green-400"
-                  rel="noopener"
                 >
-                  LinkEnt
+                  linktree
                 </a>
                 is a free Linktree alternative built with React and PaperCSS.
               </p>

@@ -10,7 +10,7 @@ export class User extends Component {
           <img
             className="user-avatar"
             src={user.avatar}
-            alt="Card example image"
+            alt=""
             style={{ borderRadius: "100%", width: "100px", height: "100px" }}
           />
 
