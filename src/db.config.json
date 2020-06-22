@@ -1,4 +1,4 @@
 {
-  "userInfo": "/db/user.info.json",
-  "linkTreeData": "/db/linktree.json"
+  "userInfo": "http://programworld999.github.io/mylinks/db/user.info.json",
+  "linkTreeData": "http://programworld999.github.io/mylinks/db/linktree.json"
 }
