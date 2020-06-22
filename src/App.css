@@ -33,3 +33,7 @@ body {
 .footer-social-media-link::before {
   content: "";
 }
+
+.user-card div {
+  padding: 10px;
+}

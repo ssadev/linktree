@@ -1,10 +1,22 @@
 import React, { Component } from "react";
+import axios from "axios";
+
 import Link from "./link";
-import LinkTreeData from "../db/linktree.json";
+
+import DBConfig from "../db.config.json";
 
 export class Linktree extends Component {
+  state = {
+    LinkTreeData: [],
+  };
+  componentDidMount = () => {
+    axios.get(DBConfig.linkTreeData).then((res) => {
+      // console.log(res.data.linktree);
+      this.setState({ LinkTreeData: res.data.linktree });
+    });
+  };
   render() {
-    const data = LinkTreeData.linktree;
+    let data = this.state.LinkTreeData;
     return (
       <div className="container linktree">
         <div className="row">
