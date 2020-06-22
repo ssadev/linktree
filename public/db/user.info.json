@@ -8,7 +8,7 @@
       "instagram": "#insta",
       "twitter": "#twitter"
     },
-    "footer": " is a free Linktree alternative built with React and PaperCSS.",
+    "footer": " is a Linktree alternative built with React and PaperCSS.",
     "virsion": "v01",
     "settings": {
       "bgcolor": "radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%)"
